@@ -1,0 +1,12 @@
+{
+  "name": "githa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {"deploy" :"lambda-build upload awsgitlf -r eu-north-1",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
