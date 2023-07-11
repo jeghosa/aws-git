@@ -3,7 +3,7 @@ name: ci
 on: push
 
 jobs:
-        ci:
+         ci:
     name: ci
     runs-on: ubuntu-latest
     steps:
