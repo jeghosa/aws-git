@@ -1,4 +1,4 @@
-export const handler = (event)=> {
+export const handler = async(event)=> {
     let response
     if (event.httpMethod === "GET" && event.path === "/first") {
          response = {statusCode:200,
